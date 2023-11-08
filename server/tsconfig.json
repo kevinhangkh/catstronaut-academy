@@ -1,5 +1,18 @@
 {
   "compilerOptions": {
-      "types": ["node"]
+    "types": ["node"],
+    "target": "es2016",
+    "moduleResolution": "node"
   }
 }
+
+// {
+//   "compilerOptions": {
+//     "rootDir": "src",
+//     "outDir": "dist",
+//     "target": "es2020",
+//     "esModuleInterop": true,
+//     "module": "commonjs",
+//   },
+//   "include": ["src"]
+// }
