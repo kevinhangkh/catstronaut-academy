@@ -4,9 +4,13 @@
   "description": "back-end demo app for Apollo's lift-off course",
   "main": "src/index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn src/index"
+    "start": "ts-node-dev --respawn src/index",
+    "generate": "graphql-codegen"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-resolvers": "^4.0.1",
     "@types/node": "^20.8.10",
     "dotenv": "^16.0.0",
     "nodemon": "^2.0.20",
